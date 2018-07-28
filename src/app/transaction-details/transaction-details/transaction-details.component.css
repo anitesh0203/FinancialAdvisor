@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    padding-top: 0.75em;
+    font-family: "Vidaloka";
+    width: 100%;
+    flex: 0 0 auto;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction:column;
+    font-family: "Vidaloka";
+  
+    flex: 0 0 auto;
+    align-self: flex-start
+
+
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    font-family: "Vidaloka";
+    justify-content: space-between;
+    padding-bottom: 1em;
+
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .submit {
+    justify-content: flex-end;
+  } 
+
+  .left {
+      justify-content: flex-start;
+  }
+
+  .right {
+    justify-content: flex-end;
+}
+.transaction {
+    font-size: 1.5em;
+}

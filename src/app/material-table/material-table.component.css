@@ -1,0 +1,24 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+  width: 100em;
+}
+
+#case-queue{
+  padding-top: 16px;
+  padding-left: 7px;
+  padding-bottom: 17px;
+  height: 64px;
+  color: #354052;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 64px;
+}
